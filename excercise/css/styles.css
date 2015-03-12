@@ -1,0 +1,50 @@
+/* Your Website Styles */
+body {
+  background: #000;
+}
+
+
+/* Gallery Controls */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+  Gallery Items
+*/
+.gallery {
+  position: relative;
+}
+
+/* Item Dimensions */
+.gallery .item {
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 
+  - Disc Styling from Original CSS Galery 
+  - Delete, or override as needed
+*/
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
